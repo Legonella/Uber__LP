@@ -138,11 +138,57 @@ header {
 	display: flex;
 	align-items: center;
 	text-align: center;
-	
+
 	margin-top: 20px;
 
 	color: #fff;
 
 	font-size: 18px;
 	font-weight: 300;
+}
+
+.advantages {
+	width: 115px;
+	height: 30px;
+
+	margin: 45px auto;
+	padding: 7px 0;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #fff;
+	font-size: 11px;
+	font-weight: 300;
+
+	background-color: #000000;
+}
+
+.title__main {
+	color: #000000;
+	font-size: 38px;
+	font-weight: 700;
+
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.reasons__block {
+	display: grid;
+	grid-template-columns: auto auto;
+
+	padding-top: 16px;
+}
+
+.reason {
+	display: block;
+	margin: 20px auto;
+}
+
+.reasons__roud {
+	display: inline-block;
+	width: 116px;
+	height: 116px;
+
+	background-color: #1EACC7;
+	border-radius: 50%;
 }
