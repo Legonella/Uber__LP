@@ -108,6 +108,8 @@ header {
 
 #button__header {
 	display: block;
+	width: 260px;
+	height: 63px;
 	margin: 116px auto;
 }
 
@@ -172,6 +174,15 @@ header {
 	text-transform: uppercase;
 }
 
+.content {
+	display: grid;
+	grid-template-columns: auto auto;
+
+	width: 1064px;
+	height: 767px;
+	margin: 0 auto;
+}
+
 .reasons__block {
 	display: grid;
 	grid-template-columns: auto auto;
@@ -179,16 +190,39 @@ header {
 	padding-top: 16px;
 }
 
-.reason {
-	display: block;
-	margin: 20px auto;
-}
-
 .reasons__roud {
-	display: inline-block;
+	display: grid;
 	width: 116px;
 	height: 116px;
 
-	background-color: #1EACC7;
+	margin: 15px 25px;
+
+	background-color: #1eacc7;
 	border-radius: 50%;
+}
+
+.reason {
+	place-self: center;
+}
+
+.reasons__descr {
+	display: inline-block;
+	width: 400px;
+	height: 180px;
+
+	text-align: left;
+}
+
+.reasons__subtitle {
+	color: #1eacc7;
+
+	margin-top: 25px;
+
+	font-size: 17px;
+	font-weight: 400;
+}
+
+.reasons__text {
+	font-size: 15px;
+	font-weight: 300;
 }
