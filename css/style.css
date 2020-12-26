@@ -134,6 +134,10 @@ header {
   font-size: 11px;
   font-weight: 300;
   background-color: #000000; }
+  .advantages__white {
+    margin: 0 auto;
+    color: #000000;
+    background-color: #fff; }
 
 .title__main {
   color: #000000;
@@ -141,12 +145,20 @@ header {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase; }
+  .title__main__white {
+    padding-top: 27px;
+    color: #fff; }
 
 .sub__title__main {
   color: #000000;
   font-size: 17px;
   font-weight: 400;
   text-align: center; }
+  .sub__title__main__white {
+    color: #fff; }
+  .sub__title__main__mini {
+    margin: 0 auto;
+    width: 327px; }
 
 .content {
   display: grid;
@@ -189,7 +201,7 @@ header {
 
 .mobile {
   min-height: 864px;
-  margin: 64px 0;
+  margin-top: 64px;
   padding: 5px 0;
   background: url(../img/mobile/mobile_bg.png) center center/cover no-repeat; }
   .mobile .row {
@@ -241,5 +253,67 @@ header {
     border-radius: 100%;
     background-color: #000000;
     cursor: pointer; }
+
+.uber__x {
+  width: 1920px;
+  min-height: 900px; }
+
+.uber__bg {
+  min-height: 500px;
+  background-color: #000000; }
+
+.uber__content {
+  position: relative;
+  padding-top: 57px; }
+
+.uber__bg__white {
+  min-height: 400px;
+  background: url(../img/mobile/mobile_bg.png); }
+
+.uber__X__bg {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-top: 54px; }
+
+.conditions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left; }
+
+.check__item__blue {
+  padding-top: 37px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px; }
+
+.title__check {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px; }
+  .title__check__blue {
+    color: #1ca8c3; }
+  .title__check__red {
+    color: #ff5656; }
+  .title__check__mini {
+    margin-top: 25px;
+    font-size: 17px; }
+
+.check__item {
+  width: 720px;
+  padding: 4px 0;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px; }
+  .check__item img {
+    padding: 0 18px; }
 
 /*# sourceMappingURL=style.css.map */
