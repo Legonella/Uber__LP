@@ -1,5 +1,5 @@
 * {
-  font-family: "Roboto", sans-serif; }
+  font-family: 'Roboto', sans-serif; }
 
 header {
   position: relative; }
@@ -68,7 +68,7 @@ header {
   color: #fff;
   font-size: 14px;
   font-weight: 400;
-  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
   text-decoration: none;
   text-transform: uppercase;
   margin-top: 21px;
@@ -132,7 +132,7 @@ header {
   text-transform: uppercase;
   color: #fff;
   font-size: 11px;
-  font-weight: 300;
+  font-weight: 400;
   background-color: #000000; }
   .advantages__white {
     margin: 0 auto;
@@ -315,5 +315,26 @@ header {
   line-height: 24px; }
   .check__item img {
     padding: 0 18px; }
+
+.all__world {
+  height: 720px;
+  background-color: #07070f; }
+  .all__world .container {
+    max-width: 1440px;
+    height: 716px;
+    position: relative;
+    margin-top: 85px;
+    padding-top: 48px;
+    background: url(../img/world_bg.png) center center/cover no-repeat; }
+
+.link__all__cities {
+  position: absolute;
+  left: 45%;
+  top: 88%;
+  color: #1fbad6;
+  font-size: 15px;
+  line-height: 68px;
+  text-decoration: none;
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,412 +1,442 @@
 * {
-	font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
-	position: relative;
+    position: relative;
 }
 
 .nav__bar {
-	height: 50px;
+    height: 50px;
 
-	background-color: #212121;
+    background-color: #212121;
 }
 
 .menu {
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 
-	padding: 13px 70px;
-	margin: 0;
+    padding: 13px 70px;
+    margin: 0;
 }
 
 .menu__item {
-	padding-right: 28px;
+    padding-right: 28px;
 
-	list-style: none;
+    list-style: none;
 
-	border-right: 2px dotted #000000;
+    border-right: 2px dotted #000000;
 }
 
 .menu__link {
-	color: #fff;
-	text-decoration: none;
-	font-size: 15px;
-	font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
 
-	&.menu__link:hover {
-		color: #ccc;
-	}
+    &.menu__link:hover {
+        color: #ccc;
+    }
 }
 
 .sub__header {
-	position: absolute;
-	width: 100%;
-	height: 85px;
+    position: absolute;
+    width: 100%;
+    height: 85px;
 
-	background: url(img/uber_bg.png);
-	background-color: rgba(0, 0, 0, 0.6);
+    background: url(img/uber_bg.png);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .logo img {
-	max-width: 100%;
-	margin-top: 20px;
+    max-width: 100%;
+    margin-top: 20px;
 }
 
 .sub__text {
-	color: #fff;
-	font-size: 13px;
-	opacity: 0.6;
-	font-weight: 300;
+    color: #fff;
+    font-size: 13px;
+    opacity: 0.6;
+    font-weight: 300;
 }
 
 .text__sub__head {
-	color: #fff;
+    color: #fff;
 
-	padding-top: 22px;
+    padding-top: 22px;
 
-	font-size: 12px;
-	font-weight: 200;
+    font-size: 12px;
+    font-weight: 200;
 }
 
 .sub__head__phone {
-	color: #fff;
+    color: #fff;
 
-	font-size: 22px;
-	font-weight: 400;
-	text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: none;
 
-	&.sub__head__phone:hover {
-		color: #ccc;
-	}
+    &.sub__head__phone:hover {
+        color: #ccc;
+    }
 }
 
 .button {
-	width: 170px;
-	height: 45px;
+    width: 170px;
+    height: 45px;
 
-	color: #fff;
-	font-size: 14px;
-	font-weight: 400;
-	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
-	text-decoration: none;
-	text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    text-decoration: none;
+    text-transform: uppercase;
 
-	margin-top: 21px;
+    margin-top: 21px;
 
-	border: none;
-	border-radius: 4px;
-	background: linear-gradient(0deg, #1fb0cb 0%, #4ce2ff 100%);
-	box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #1fb0cb 0%, #4ce2ff 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
 
-	&.button:hover {
-		color: #ccc;
+    &.button:hover {
+        color: #ccc;
 
-		transition: all 0.3s ease-in-out;
-	}
+        transition: all 0.3s ease-in-out;
+    }
 }
 
 #button__header {
-	display: block;
-	width: 260px;
-	height: 63px;
-	margin: 116px auto;
+    display: block;
+    width: 260px;
+    height: 63px;
+    margin: 116px auto;
 }
 
 .promo {
-	min-height: 800px;
-	background: url(../img/uber_bg.png) center/cover no-repeat;
+    min-height: 800px;
+    background: url(../img/uber_bg.png) center/cover no-repeat;
 }
 
 .promo__header {
-	display: flex;
-	justify-content: center;
-	text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
 
-	margin-top: 152px;
+    margin-top: 152px;
 
-	color: #fff;
-	font-weight: 900;
-	font-size: 60px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 60px;
 
-	&#sub {
-		font-size: 36px;
-		margin-top: 3px;
-	}
+    &#sub {
+        font-size: 36px;
+        margin-top: 3px;
+    }
 }
 
 .promo__sub__text {
-	width: 985px;
-	display: flex;
-	align-items: center;
-	text-align: center;
+    width: 985px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-	margin-top: 20px;
+    margin-top: 20px;
 
-	color: #fff;
+    color: #fff;
 
-	font-size: 18px;
-	font-weight: 300;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .advantages {
-	width: 115px;
-	height: 30px;
+    width: 115px;
+    height: 30px;
 
-	margin: 45px auto;
-	padding: 7px 0;
-	text-align: center;
-	text-transform: uppercase;
+    margin: 45px auto;
+    padding: 7px 0;
+    text-align: center;
+    text-transform: uppercase;
 
-	color: #fff;
-	font-size: 11px;
-	font-weight: 300;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 400;
 
-	background-color: #000000;
+    background-color: #000000;
 
-	&__white {
-		margin: 0 auto;
+    &__white {
+        margin: 0 auto;
 
-		color: #000000;
-		background-color: #fff;
-	}
+        color: #000000;
+        background-color: #fff;
+    }
 }
 
 .title__main {
-	color: #000000;
-	font-size: 38px;
-	font-weight: 700;
+    color: #000000;
+    font-size: 38px;
+    font-weight: 700;
 
-	text-align: center;
-	text-transform: uppercase;
+    text-align: center;
+    text-transform: uppercase;
 
-	&__white {
-		padding-top: 27px;
-		color: #fff;
-	}
+    &__white {
+        padding-top: 27px;
+        color: #fff;
+    }
 }
 
 .sub__title__main {
-	color: #000000;
-	font-size: 17px;
-	font-weight: 400;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 400;
 
-	text-align: center;
+    text-align: center;
 
-	&__white {
-		color: #fff;
-	}
+    &__white {
+        color: #fff;
+    }
 
-	&__mini {
-		margin: 0 auto;
-		width: 327px;
-	}
+    &__mini {
+        margin: 0 auto;
+        width: 327px;
+    }
 }
 
 .content {
-	display: grid;
-	grid-template-columns: auto auto;
+    display: grid;
+    grid-template-columns: auto auto;
 
-	width: 1064px;
-	height: 767px;
-	margin: 0 auto;
+    width: 1064px;
+    height: 767px;
+    margin: 0 auto;
 }
 
 .reasons__block {
-	display: grid;
-	grid-template-columns: auto auto;
+    display: grid;
+    grid-template-columns: auto auto;
 
-	padding-top: 16px;
+    padding-top: 16px;
 }
 
 .reasons__roud {
-	display: grid;
-	width: 116px;
-	height: 116px;
+    display: grid;
+    width: 116px;
+    height: 116px;
 
-	margin: 15px 25px;
+    margin: 15px 25px;
 
-	background-color: #1eacc7;
-	border-radius: 50%;
+    background-color: #1eacc7;
+    border-radius: 50%;
 }
 
 .reason {
-	place-self: center;
+    place-self: center;
 }
 
 .reasons__descr {
-	display: inline-block;
-	width: 400px;
-	height: 180px;
+    display: inline-block;
+    width: 400px;
+    height: 180px;
 
-	text-align: left;
+    text-align: left;
 }
 
 .reasons__subtitle {
-	color: #1eacc7;
+    color: #1eacc7;
 
-	margin-top: 25px;
+    margin-top: 25px;
 
-	font-size: 17px;
-	font-weight: 400;
+    font-size: 17px;
+    font-weight: 400;
 }
 
 .reasons__text {
-	font-size: 15px;
-	font-weight: 300;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .mobile {
-	min-height: 864px;
+    min-height: 864px;
 
-	margin-top: 64px;
-	padding: 5px 0;
+    margin-top: 64px;
+    padding: 5px 0;
 
-	background: url(../img/mobile/mobile_bg.png) center (center / cover) no-repeat;
+    background: url(../img/mobile/mobile_bg.png) center (center / cover)
+        no-repeat;
 
-	.row {
-		margin-top: 32px;
-	}
+    .row {
+        margin-top: 32px;
+    }
 }
 
 .mobile__item {
-	width: 320px;
-	height: 280px;
-	position: relative;
+    width: 320px;
+    height: 280px;
+    position: relative;
 
-	margin: 0 auto;
-	margin-bottom: 19px;
-	padding-top: 92px;
+    margin: 0 auto;
+    margin-bottom: 19px;
+    padding-top: 92px;
 
-	color: #fff;
-	font-size: 24px;
-	font-weight: 400;
-	line-height: 31px;
-	text-transform: uppercase;
-	text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px;
+    text-transform: uppercase;
+    text-align: center;
 
-	&__1 {
-		background: url(../img/mobile/mobile__map.png) center (center / cover)
-			no-repeat;
-	}
+    &__1 {
+        background: url(../img/mobile/mobile__map.png) center (center / cover)
+            no-repeat;
+    }
 
-	&__2 {
-		background: url(../img/mobile/mobile__map__two.png) center (center / cover)
-			no-repeat;
-	}
+    &__2 {
+        background: url(../img/mobile/mobile__map__two.png) center
+            (center / cover) no-repeat;
+    }
 
-	&__3 {
-		background: url(../img/mobile/mobile__pay.png) center (center / cover)
-			no-repeat;
-	}
+    &__3 {
+        background: url(../img/mobile/mobile__pay.png) center (center / cover)
+            no-repeat;
+    }
 
-	&__4 {
-		background: url(../img/mobile/mobile__pay__two.png) center (center / cover)
-			no-repeat;
-	}
+    &__4 {
+        background: url(../img/mobile/mobile__pay__two.png) center
+            (center / cover) no-repeat;
+    }
 
-	&__5 {
-		background: url(../img/mobile/mobile__services.png) center (center / cover)
-			no-repeat;
-	}
+    &__5 {
+        background: url(../img/mobile/mobile__services.png) center
+            (center / cover) no-repeat;
+    }
 
-	&__6 {
-		background: url(../img/mobile/mobile__pay__free.png) center (center / cover)
-			no-repeat;
-	}
+    &__6 {
+        background: url(../img/mobile/mobile__pay__free.png) center
+            (center / cover) no-repeat;
+    }
 
-	&__plus {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		position: absolute;
-		bottom: 35px;
-		left: 50%;
-		transform: translateX(-50%);
+    &__plus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 35px;
+        left: 50%;
+        transform: translateX(-50%);
 
-		width: 26px;
-		height: 26px;
+        width: 26px;
+        height: 26px;
 
-		margin: 0 auto;
+        margin: 0 auto;
 
-		border-radius: 100%;
-		background-color: #000000;
-		cursor: pointer;
-	}
+        border-radius: 100%;
+        background-color: #000000;
+        cursor: pointer;
+    }
 }
 
 .uber__x {
-	width: 1920px;
-	min-height: 900px;
+    width: 1920px;
+    min-height: 900px;
 }
 
 .uber__bg {
-	min-height: 500px;
-	background-color: #000000;
+    min-height: 500px;
+    background-color: #000000;
 }
 
 .uber__content {
-	position: relative;
-	padding-top: 57px;
+    position: relative;
+    padding-top: 57px;
 }
 
 .uber__bg__white {
-	min-height: 400px;
-	background: url(../img/mobile/mobile_bg.png);
+    min-height: 400px;
+    background: url(../img/mobile/mobile_bg.png);
 }
 
 .uber__X__bg {
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 
-	margin-top: 54px;
+    margin-top: 54px;
 }
 
 .conditions {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
 }
 
 .check__item__blue {
-	padding-top: 37px;
+    padding-top: 37px;
 
-	font-weight: 300;
-	font-size: 17px;
-	line-height: 24px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
 }
 
 .title__check {
-	font-size: 22px;
-	font-weight: 400;
-	line-height: 24px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
 
-	&__blue {
-		color: #1ca8c3;
-	}
+    &__blue {
+        color: #1ca8c3;
+    }
 
-	&__red {
-		color: #ff5656;
-	}
+    &__red {
+        color: #ff5656;
+    }
 
-	&__mini {
-		margin-top: 25px;
-		font-size: 17px;
-	}
+    &__mini {
+        margin-top: 25px;
+        font-size: 17px;
+    }
 }
 
 .check__item {
-	width: 720px;
+    width: 720px;
 
-	padding: 4px 0;
+    padding: 4px 0;
 
-	font-weight: 300;
-	font-size: 17px;
-	line-height: 24px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
 
-	img {
-		padding: 0 18px;
-	}
+    img {
+        padding: 0 18px;
+    }
+}
+
+.all__world {
+    height: 720px;
+    background-color: #07070f;
+
+    .container {
+        max-width: 1440px;
+        height: 716px;
+
+        position: relative;
+
+        margin-top: 85px;
+        padding-top: 48px;
+
+        background: url(../img/world_bg.png) center (center / cover) no-repeat;
+    }
+}
+
+.link__all__cities {
+    position: absolute;
+    left: 45%;
+    top: 88%;
+
+    color: #1fbad6;
+    font-size: 15px;
+    line-height: 68px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
