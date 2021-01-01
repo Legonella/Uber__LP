@@ -329,12 +329,40 @@ header {
 
 .link__all__cities {
   position: absolute;
-  left: 45%;
+  left: 43%;
   top: 88%;
   color: #1fbad6;
   font-size: 15px;
   line-height: 68px;
   text-decoration: none;
   text-transform: uppercase; }
+
+.footer__line {
+  width: 300px;
+  height: 7px;
+  margin: 11px auto;
+  background: #1FBAD6; }
+
+.social__links {
+  max-width: 100%;
+  max-height: 100%; }
+
+.links {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-color: #000000;
+  border-radius: 100%; }
+  .links .soc__icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
 /*# sourceMappingURL=style.css.map */
